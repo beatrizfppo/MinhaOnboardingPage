@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MinhaOnboardingPage.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MinhaOnboardingPage"
+    xmlns:views="clr-namespace:MinhaOnboardingPage.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="MinhaOnboardingPage">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate views:OnboardingPage}"
+        Route="MainPage" />
+
+</Shell>
